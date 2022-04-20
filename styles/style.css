@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height : 1.5;
+    
+}
+
+.titulo-1{
+    background-color: rgb(209, 209, 209);
+}
+
+div{
+    border: 4px outset rgb(0, 0, 0);
+    padding: 30px 30px;
+  }
+
+.contenedor-1{
+    padding: 30px 50px;
+}
+
+/* Visitado y no visitado */
+
+a:link{
+    color: rgb(20, 66, 219);
+    font-weight: bold
+}
+
+a:visited{
+    color: brown;
+    font-weight: bold
+}
+
+/* Hover */
+
+div{
+    background-color: rgb(77, 175, 255);
+    color: rgb(255, 255, 255);
+}
+
+div:hover  {
+    background-color: steelblue;
+    color: white;
+}
+
+
+/* Pseudoelementos*/
+
+
+/* Primera letra */
+
+.parrafo-1::first-letter{
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+}
+
+.lista-elemento::first-letter{
+    color: black;
+    font-family: 'Times New Roman', serif;
+    font-size: 42px;
+}
+
+/* Primera línea */
+
+p::first-line {
+    color: rgb(0, 0, 0);
+  }
